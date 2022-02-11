@@ -1,0 +1,151 @@
+# Angular
+
+- Decorators
+    - [Component](https://angular.io/api/core/Component) [🧩](docs/Component.md)
+    - [Directive](https://angular.io/api/core/Directive)
+    - [HostListener](https://angular.io/api/core/HostListener)
+    - [Input](https://angular.io/api/core/Input)
+    - [Output](https://angular.io/api/core/Output)
+    - [SkipSelf](https://angular.io/api/core/SkipSelf)
+    - [ContentChild](https://angular.io/api/core/ContentChild)
+    - [Host](https://angular.io/api/core/Host)
+    - [Inject](https://angular.io/api/core/Inject)
+    - [NgModule](https://angular.io/api/core/NgModule)
+    - [Pipe](https://angular.io/api/core/Pipe)
+    - [ViewChild](https://angular.io/api/core/ViewChild)
+    - [ContentChildren](https://angular.io/api/core/ContentChildren)
+    - [HostBinding](https://angular.io/api/core/HostBinding)
+    - [Injectable](https://angular.io/api/core/Injectable)
+    - [Optional](https://angular.io/api/core/Optional)
+    - [Self](https://angular.io/api/core/Self)
+    - [ViewChildren](https://angular.io/api/core/ViewChildren)
+- API
+    - Foreground
+        - Animations
+            - Packages : [animations](https://angular.io/api/animations) / [browser](https://angular.io/api/animations/browser) / [testing](https://angular.io/api/animations/browser/testing)
+            - Classes : [animations](https://angular.io/api/animations#primary-entry-point-exports)
+            - Enums : [animations](https://angular.io/api/animations/AnimationMetadataType#animationmetadatatype) 
+            - Functions : [animations](https://angular.io/api/animations#functions)
+            - Interfaces : [animations](https://angular.io/api/animations#structures)
+            - Types : [animations](https://angular.io/api/animations#types)
+        - Http
+            - Packages : [common](https://angular.io/api/common) / [http](https://angular.io/api/common/http) / [testing](https://angular.io/api/common/testing)
+            - Modules : [common / http](https://angular.io/api/common/http#entry-point-exports) / [testing](https://angular.io/api/common/http/testing#entry-point-exports)
+            - Enums : [common / http](https://angular.io/api?type=enum)
+            - Classes : [http](https://angular.io/api/common/http#classes)
+            - Interfaces : [common / http](https://angular.io/api/common/http#structures) / [testing](https://angular.io/api/common/http/testing#structures)
+            - Types: [common / http](https://angular.io/api/common/http#structures)
+        - Router		
+            - Packages : [router](https://angular.io/api/router) / [testing](https://angular.io/api/router/testing) : [/upgrade](https://angular.io/api/router/upgrade) 
+            - Modules : [router](https://angular.io/api/router#ngmodules) / [testing](https://angular.io/api/router/testing#ngmodules)
+            - Classes : [router](https://angular.io/api/router#classes)
+            - Directive : [router](https://angular.io/api/router#directives)
+            - Functions : [router](https://angular.io/api/router#functions) / [testing](https://angular.io/api/router/testing#functions) : [/upgrade](https://angular.io/api/router/upgrade#functions)
+            - Interfaces : [router](https://angular.io/api/router#structures)
+            - Types : [router](https://angular.io/api/router#types) / [upgrade](https://angular.io/api/router/upgrade#types)
+        - Forms
+            - Packages : [forms](https://angular.io/api/forms)
+            - Modules : [forms](https://angular.io/api/forms#ngmodules)
+            - Classes : [forms](https://angular.io/api/forms#classes)
+            - Directive : [forms](https://angular.io/api/forms#directives)
+            - Interfaces : [forms](https://angular.io/api/forms#structures)
+            - Types : [forms](https://angular.io/api/forms#types)
+        - Localize
+            - Package : [localize](https://angular.io/api/localize) / [init](https://angular.io/api/localize/init)
+            - Functions : [localize](https://angular.io)
+            - Types : [localize](https://angular.io/api/localize/init#types)
+    - Background        
+        - Service-Worker
+            - Packages : [service-worker](https://angular.io/api/service-worker)
+            - Module : [service-worker](https://angular.io/api/service-worker#ngmodules)
+            - Classes : [service-worker](https://angular.io/api/service-worker#classes)
+            - Interfaces : [service-worker](https://angular.io/api/service-worker#structures)
+            - Types : [service-worker](https://angular.io/api/service-worker#types)
+        - Common
+            - Packages : [common](https://angular.io) / [testing](https://angular.io) :  [common / upgrade](https://angular.io)
+            - Modules : [common](https://angular.io) / [upgrade](https://angular.io)
+            - Enums : [common](https://angular.io/api?type=enum)
+            - Directive : [common](https://angular.io)
+            - Functions : [common](https://angular.io)
+            - Interfaces : [common](https://angular.io) / [testing](https://angular.io) : [common / upgrade](https://angular.io)
+            - Pipe : [common](https://angular.io)
+            - Types: [common](https://angular.io/api/common#structures) / [testing](https://angular.io/api/common/testing#structures) : / [upgrade](https://angular.io/api/common/upgrade#types)
+        - Core
+            - Packages : [core](https://angular.io) / [global](https://angular.io) : [core / testing](https://angular.io)
+            - Module : [core](https://angular.io)
+            - Classes : [core](https://angular.io)
+            - Enums : [core](https://angular.io/api?type=enum)
+            - Functions : [core](https://angular.io) / [global](https://angular.io) : [core / testing](https://angular.io)
+            - Interfaces : [core](https://angular.io) / [global](https://angular.io) : [core / testing](https://angular.io)
+            - Types : [core](https://angular.io/api/core#types) / [testing](https://angular.io/api/core/testing#types)
+            - Elements : [core](https://angular.io/api/core#elements)
+        - Platform            
+            - Platform-Browser
+                - Packages : [platform-browser](https://angular.io) : [/animations](https://angular.io) : [/testing](https://angular.io) : [-dynamic](https://angular.io) : [-dynamic/testing](https://angular.io)
+                - Modules : [platform-browser](https://angular.io) : [/animations](https://angular.io) : [/testing](https://angular.io) : [-dynamic/testing](https://angular.io)
+                - Classes : [platform-browser](https://angular.io)
+                - Functions : [platform-browser](https://angular.io)
+                - Interfaces : [platform-browser](https://angular.io) / [animations](https://angular.io) 
+                - Types : [platform-browser](https://angular.io/api/platform-browser#types) : [/animations](https://angular.io/api/platform-browser/animations#types) : [/testing](https://angular.io/api/platform-browser/testing#types) : [-dynamic](https://angular.io/api/platform-browser-dynamic#types) : [-dynamic/testing](https://angular.io/api/platform-browser-dynamic/testing#types) 
+            - Platform-Server
+                - Packages : [platform-server](https://angular.io) / [testing](https://angular.io)
+                - Modules : [platform-server](https://angular.io) / [testing](https://angular.io)
+                - Classes : [platform-server](https://angular.io)
+                - Functions : [platform-server](https://angular.io)
+                - Interfaces : [platform-server](https://angular.io)
+                - Types : [platform-server](https://angular.io/api/platform-server#types) / [testing](https://angular.io/api/platform-server/testing#types)
+        - Upgrade
+            - Packages : [upgrade / static](https://angular.io) / [testing](https://angular.io)
+            - Modules : [upgrade / static](https://angular.io)
+            - Classes : [upgrade](https://angular.io)
+            - Functions : [upgrade / static](https://angular.io) / [testing](https://angular.io)
+            - Directive : [upgrade / static](https://angular.io)
+- Dependencies
+    - Typescript
+    - Scss
+    - RxJs
+- Data binding
+    - Interpolation
+    - Widgets
+    - Components
+    - EventEmitter
+    - Child
+- Tests
+    - Jasmine
+    - Jest
+    - Karma
+    - Cypress
+    - automation
+- Command Line
+- Project Files
+    - angular project
+        - files
+            - .browserslistrc
+                - [https://github.com/browserslist...](https://github.com/browserslist/browserslist#queries)
+            - .editorconfig
+                - [https://editorconfig.org...](https://editorconfig.org)
+            - .gitignore
+                - [http://help.github.com/ignore-files/...](http://help.github.com/ignore-files/)
+            - .idea
+                - [https://www.jetbrains.com/help/idea...](https://www.jetbrains.com/help/idea/project-settings-and-structure.html#preview-policy)
+            - angular.json
+                - [https://angular.io...](https://angular.io/guide/workspace-config)
+            - karma.conf.js
+                - [https://karma-runner.github.io...](https://karma-runner.github.io/6.3/config/configuration-file.html)
+            - node_modules
+            - package.json
+                - [https://yarnpkg.com...](https://yarnpkg.com/configuration/manifest)
+                - [https://docs.npmjs.com...](https://docs.npmjs.com/cli/v8/configuring-npm/package-json)
+            - README.md
+                - [https://www.markdownguide.org...](https://www.markdownguide.org/basic-syntax/)
+            - src
+            - tsconfig.app.json
+                - [https://stackoverflow.com...](https://stackoverflow.com/questions/48798431/use-of-tsconfig-app-json)
+            - tsconfig.json
+                - [https://www.typescriptlang.org...](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)
+                - [https://github.com/tsconfig...](https://github.com/tsconfig/bases/)
+            - tsconfig.spec.json
+                - [https://angular.io...](https://angular.io/config/tsconfig)
+                - [https://angular.io...](https://angular.io/guide/typescript-configuration)
+            - yarn.lock
+                - [https://yarnpkg.com](https://yarnpkg.com/configuration/manifest)

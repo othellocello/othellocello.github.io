@@ -56,9 +56,11 @@
             running = false;
             clearInterval(fadeInt);
         }
+
+        startFade();
     </script>
 </head>
-<body onclick="toggleFade()" onmouseenter="startFade()" onmouseout="pauseFade()">
+<body onclick="toggleFade()">
 <img src="dark.png" alt="" class="bg l2" id="topImg">
 <img src="light.png" alt="" class="bg l1">
 </body>
